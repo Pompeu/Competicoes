@@ -8,7 +8,10 @@ int main( )
 
         int p[1001]={0},a;
 
+        //FILE *f = fopen("arquivo.txt","r");
+
            while(n--){
+
                 scanf("%d", &a);
                     p[a]++;
                 }
